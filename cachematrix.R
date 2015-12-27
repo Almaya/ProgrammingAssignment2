@@ -2,7 +2,7 @@
 ## These functions allow the user to store the inverse of a matrix (or matrices)
 ## in the cache memory, in order to save CPU time.
 
-## creates a matrix X that can cache its inverse
+## creates a matrix object that can cache its own inverse
 
 makeCacheMatrix <- function(x = matrix()) {
       inv <- NULL
